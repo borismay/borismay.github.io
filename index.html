@@ -1,16 +1,22 @@
+
 <!--Informative box--><!DOCTYPE html>
 <html class="wide wow-animation" lang="en">
   <head>
     <title>Home</title>
     <meta name="format-detection" content="telephone=no">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-<!--    <meta http-equiv="X-UA-Compatible" content="IE=edge">-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
     <!-- Stylesheets-->
-    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Roboto:100,300,300i,400,700,900">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Roboto:100,300,300i,400,700,900">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/style.css" id="main-styles-link">
+    <!--[if lt IE 10]>
+    <div style="background: #212121; padding: 10px 0; box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3); clear: both; text-align:center; position: relative; z-index:1;"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
+    <script src="js/html5shiv.min.js"></script>
+    <![endif]-->
   </head>
   <body>
     <div class="preloader">
@@ -24,41 +30,77 @@
     <div class="page">
       <!-- Page Header-->
       <header class="section page-header">
+        <!-- RD Navbar-->
+        <div class="rd-navbar-wrap">
+          <nav class="rd-navbar rd-navbar-creative" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-static" data-xl-layout="rd-navbar-static" data-xl-device-layout="rd-navbar-static" data-lg-stick-up-offset="20px" data-xl-stick-up-offset="20px" data-xxl-stick-up-offset="20px" data-lg-stick-up="true" data-xl-stick-up="true" data-xxl-stick-up="true">
+            <div class="rd-navbar-main-outer">
+              <div class="rd-navbar-main">
+                <!-- RD Navbar Panel-->
+                <div class="rd-navbar-panel">
+                  <!-- RD Navbar Toggle-->
+                  <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
+                  <!-- RD Navbar Brand-->
+                  <div class="rd-navbar-brand">
+                    <!--Brand--><a class="brand" href="index.html"><img class="brand-logo-dark" src="images/logo-424x107.png" alt="" width="212" height="53"/><img class="brand-logo-light" src="images/logo-inverse-123x57.png" alt="" width="61" height="28"/></a>
+                  </div>
+                </div>
+                <div class="rd-navbar-main-element">
+                  <div class="rd-navbar-nav-wrap">
+                    <!-- RD Navbar Nav-->
+                    <ul class="rd-navbar-nav">
+                      <li class="rd-nav-item active"><a class="rd-nav-link" href="#home">Home</a>
+                      </li>
+                      <li class="rd-nav-item"><a class="rd-nav-link" href="#about">About</a>
+                      </li>
+                      <li class="rd-nav-item"><a class="rd-nav-link" href="#programs">Programs</a>
+                      </li>
+                      <li class="rd-nav-item"><a class="rd-nav-link" href="#team">Team</a>
+                      </li>
+                      <li class="rd-nav-item"><a class="rd-nav-link" href="#faq">FAQ</a>
+                      </li>
+                      <li class="rd-nav-item"><a class="rd-nav-link" href="#pricing">Pricing</a>
+                      </li>
+                      <li class="rd-nav-item"><a class="rd-nav-link" href="#contacts">Contacts</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
       </header>
       <!-- Swiper-->
-      <section class="section swiper-container swiper-slider swiper-slider-2" id="home" data-loop="true" data-autoplay="6000" data-simulate-touch="false" data-slide-effect="fade">
+      <section class="section swiper-container swiper-slider swiper-slider-2" id="home" data-loop="true" data-autoplay="50000" data-simulate-touch="false" data-slide-effect="fade">
         <div class="swiper-wrapper text-lg-left text-center">
-          <div class="swiper-slide" data-slide-bg="images/2_C_1920x900.jpg" style="background-position: 65% 50%;">
+          <div class="swiper-slide" data-slide-bg="images/slider-1-1920x900.jpg">
             <div class="swiper-slide-caption">
               <div class="container">
-                <div class="row justify-content-md-center justify-content-lg-start"> <!--<div class="logo"></div>-->
-                  <div class="col-md-12 col-lg-8">
-                    <h1 data-caption-animate="fadeInUp" data-caption-delay="100"><span class="d-block font-weight-bold">Handsome</span><br><span class="d-block font-weight-light">A smart outdoor solution that protects your home entrance and your family against viruses!</span></h1>
-<!--                      <a class="button button-240 button-primary self-center-md" href="#how_it_works" data-caption-animate="fadeInUp" data-caption-delay="450">Learn more...</a>-->
+                <div class="row justify-content-lg-center">
+                  <div class="col-12">
+                    <h1 data-caption-animate="fadeInUp" data-caption-delay="100"><span class="d-block font-weight-medium">A Perfect Learning Center</span><span class="d-block font-weight-thin">for Your Kids</span></h1><a class="button button-240 button-primary self-center-md" href="#" data-caption-animate="fadeInUp" data-caption-delay="450">Learn More</a>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="swiper-slide" data-slide-bg="images/slider-1-1920x900.jpg" style="background-position: right 50%;">
+          <div class="swiper-slide" data-slide-bg="images/slider-2-1920x900.jpg" style="background-position: 50% 50%">
             <div class="swiper-slide-caption">
               <div class="container">
-                <div class="row justify-content-md-center justify-content-lg-start"><div class="logo yellow-logo"></div>
-                  <div class="col-md-12 col-lg-8">
-                      <h1 data-caption-animate="fadeInUp" data-caption-delay="100"><span class="d-block font-weight-bold">Only $8.90/month</span><br><span class="d-block font-weight-light">To protect your home and your loved ones.<br><span style="color:green;">Available March 2021.</span></span></h1>
-<!--                      <a class="button button-240 button-primary self-center-md" href="#how_it_works" data-caption-animate="fadeInUp" data-caption-delay="450">Learn more...</a>-->
+                <div class="row justify-content-lg-center">
+                  <div class="col-12">
+                    <h1 data-caption-animate="fadeInUp" data-caption-delay="100"><span class="d-block font-weight-medium">Best Teachers</span><span class="d-block font-weight-thin">and Environment</span></h1><a class="button button-240 button-primary self-center-md" href="#" data-caption-animate="fadeInUp" data-caption-delay="450">Learn More</a>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="swiper-slide" data-slide-bg="images/family.jpg" style="background-position: 90% 50%;">
+          <div class="swiper-slide" data-slide-bg="images/slider-3-1920x900.jpg" style="background-position: 50% 50%">
             <div class="swiper-slide-caption">
               <div class="container">
-                <div class="row justify-content-md-center justify-content-lg-start"><!--<div class="logo"></div>-->
-                  <div class="col-md-12 col-lg-8">
-                      <h1 data-caption-animate="fadeInUp" data-caption-delay="100"><span class="d-block font-weight-bold">Smart & Outdoor</span><br><span class="d-block font-weight-light">Entrants detection<br>Usage reminder<br>Auto-refill service<br>Custom design</span></h1>
-<!--                      <a class="button button-240 button-primary self-center-md" href="#how_it_works" data-caption-animate="fadeInUp" data-caption-delay="450">Learn more...</a>-->
+                <div class="row justify-content-lg-center">
+                  <div class="col-12">
+                    <h1 data-caption-animate="fadeInUp" data-caption-delay="100"><span class="d-block font-weight-medium">Varied Curriculum for</span><span class="d-block font-weight-thin">Kids and Teens</span></h1><a class="button button-240 button-primary self-center-md" href="#" data-caption-animate="fadeInUp" data-caption-delay="450">Learn More</a>
                   </div>
                 </div>
               </div>
@@ -76,171 +118,74 @@
           <div class="swiper-pagination"></div>
         </div>
       </section>
-        
-      <!-- how it works-->
-      <section class="section context-dark" id="how_it_works">
+      <!-- Special Education-->
+      <section class="section context-dark">
         <div class="row row-flex no-gutters">
           <div class="col-md-6 col-lg-3">
             <div class="blurb-boxed-2">
-<!--              <div class="icon linearicons-drop"></div>-->
-                <svg class="bi bi-door-open" width="32" height="32" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" d="M1 15.5a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 0 1h-13a.5.5 0 0 1-.5-.5zM11.5 2H11V1h.5A1.5 1.5 0 0 1 13 2.5V15h-1V2.5a.5.5 0 0 0-.5-.5z"/>
-                      <path fill-rule="evenodd" d="M10.828.122A.5.5 0 0 1 11 .5V15h-1V1.077l-6 .857V15H3V1.5a.5.5 0 0 1 .43-.495l7-1a.5.5 0 0 1 .398.117z"/>
-                      <path d="M8 9c0 .552.224 1 .5 1s.5-.448.5-1-.224-1-.5-1-.5.448-.5 1z"/>                
-                </svg>
-              <h4 class="title">The Solution</h4>
-<!--                <p class="exception" style="font-size: large;"></p>-->
-              <p class="exception">The Handsome solution contains a nicely designed, smart outdoor dispenser and proprietary hands friendly sanitizing liquid packs. The dispenser doesn't require any cables, so you can easily install it at your front door by yourself.</p>
+              <div class="icon linearicons-book2"></div>
+              <h6 class="title">Special Education</h6>
+              <p class="exeption">Our Special Education Program offers quality education to children with disabilities and developmental delays.</p>
             </div>
           </div>
           <div class="col-md-6 col-lg-3">
             <div class="blurb-boxed-2 blurb-boxed-green">
-<!--              <div class="icon linearicons-sun"></div>-->
-                <svg class="bi bi-phone" width="32" height="32" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" d="M11 1H5a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z"/>
-                      <path fill-rule="evenodd" d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
-                </svg>
-                <h4 class="title">The Dispenser</h4>
-              <p class="exception">You can choose dispenser's color to match your house exterior. It uses sensors and AI to detect entrants and send them visual and audio reminders to clean hands before they enter in.</p>
+              <div class="icon linearicons-sun"></div>
+              <h6 class="title">Full Day Session</h6>
+              <p class="exeption">At Kinderex, we offer full-day preschool sessions built on a play-based approach for kids ages two to five.</p>
             </div>
           </div>
           <div class="col-md-6 col-lg-3">
             <div class="blurb-boxed-2 blurb-boxed-orange">
-<!--              <div class="icon linearicons-license"></div>-->
-                <svg class="bi bi-droplet" width="32" height="32" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                      <path fill-rule="evenodd" d="M7.21.8C7.69.295 8 0 8 0c.109.363.234.708.371 1.038.812 1.946 2.073 3.35 3.197 4.6C12.878 7.096 14 8.345 14 10a6 6 0 0 1-12 0C2 6.668 5.58 2.517 7.21.8zm.413 1.021A31.25 31.25 0 0 0 5.794 3.99c-.726.95-1.436 2.008-1.96 3.07C3.304 8.133 3 9.138 3 10a5 5 0 0 0 10 0c0-1.201-.796-2.157-2.181-3.7l-.03-.032C9.75 5.11 8.5 3.72 7.623 1.82z"/>
-                      <path fill-rule="evenodd" d="M4.553 7.776c.82-1.641 1.717-2.753 2.093-3.13l.708.708c-.29.29-1.128 1.311-1.907 2.87l-.894-.448z"/>
-                </svg>
-                
-              <h4 class="title">The Sanitizing Liquid</h4>
-              <p class="exception">Handsome sanitizer is a combination of art and science. The formula provides a perfume fragrance and a nice, smooth hand feeling that your friends and guests will love. You can choose between 3 fragrances: odorless, fresh lemon, and calm lavender.</p>
+              <div class="icon linearicons-license"></div>
+              <h6 class="title">Qualified Teachers</h6>
+              <p class="exeption">Our team consists of experienced and creative teachers who are dedicated to your kids’ successful education.</p>
             </div>
           </div>
           <div class="col-md-6 col-lg-3">
             <div class="blurb-boxed-2 blurb-boxed-red">
-<!--              <div class="icon linearicons-license"></div>-->
-                <svg class="bi bi-bookmark-heart" width="32" height="32" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                  <path fill-rule="evenodd" d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"/>
-                  <path fill-rule="evenodd" d="M8 4.41c1.387-1.425 4.854 1.07 0 4.277C3.146 5.48 6.613 2.986 8 4.412z"/>
-                </svg>
-
-                <h4 class="title">The Experience</h4>
-              <p class="exception">Handsome dispenser and sanitizer packs are equipped with liquid level sensors, so you'll never run out of the liquid. You can choose between 2 plans: unlimited sanitizer monthly subscription, or order when you need after you’ll get an alert from Handsome.</p>
+              <p class="exeption">The Best Preschool</p>
+              <h5 class="title">Providing Quality Education in a Creative Environment</h5><a class="button button-280 button-default-outline" href="#">Learn More</a>
             </div>
           </div>
         </div>
       </section>
-
-        
-      <!-- Product photos -->
-        <section class="section" id="product_photos">
-            <div class="row row-flex no-gutters">
-                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="3000"  data-loop="true" data-autoplay="true">
-                    <div class="carousel-inner">
-                    <div class="carousel-item active">
-                      <img class="d-block w-100" src="images/product/2_C_1920x900_red.jpg">
-                    </div>
-                    <div class="carousel-item">
-                      <img class="d-block w-100" src="images/product/2_W_w1_1920x900.jpg">
-                    </div>
-
-                    <div class="carousel-item">
-                      <img class="d-block w-100" src="images/product/2_F_1920x900.png">
-                    </div>
-                    <div class="carousel-item">
-                      <img class="d-block w-100" src="images/product/2_G%201920x900.jpg">
-                    </div>
-                    
-                    </div>
-
-                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                    </a>
-                </div>
-            </div>
-        </section>
-        
-        
-        
-      <!-- Pricing-->
-      <section class="section section-lg" id="pricing">
-        <div class="container text-center">
-          <h2>Save 30%, Pre-Order Now</h2>
-          <h2>Two Plans are Available</h2>
-          <div class="row no-gutters justify-content-center row-bordered-center">
-            <div class="col-md-5 d-flex wow fadeInRight">
-              <div class="price-box-1 price-box-orange">
-                <div class="media-wrap"><img src="images/unlimited_256x256.png" alt="" width="256" height="256"/>
-                </div>
-                <div class="title"><h2 class="text-white">Unlimited!</h2></div>
-                  <p class="exception text-white">Save time and money and never worry about running out of the sanitizing liquid. We'll send you a refill before you approach the empty level. Your home is always protected. </p>
-                  <p class="exception text-white">Cancel any time.</p>
-                  <div class="heading-4 price text-white">Dispenser + 1 Liquid: <del>$59</del> $49</div>
-                  <div class="heading-4 price text-white">Unlimited Refil: <del>$12.70/mo</del> $8.90/mo</div>
-                  <a class="button button-xs button-default-outline" href="#">Pre-order</a>
-              </div>
-            </div>
-              <div class="col-md-2 d-flex wow fadeInRight"><br></div>
-            <div class="col-md-5 d-flex wow fadeInRight">
-              <div class="price-box-1 price-box-green">
-                <div class="media-wrap"><img src="images/no_commitment_256x256.png" alt="" width="256" height="256"/>
-                </div>
-                <div class="title"><h2 class="text-white">No Commitment</h2></div>
-                <p class="exeption">Pay as you consume without any commitments. We'll notify you when you're about to run out of the sanitizing liquid. You may purchase the liquid at your convenience to continue protecting your home and family.</p>
-                <p class="exeption">No monthly payments.</p>
-                  <div class="heading-4 price text-white">Dispenser Only: <del>$59</del> $49</div>
-                  <div class="heading-4 price text-white">Liquid: <del>$22.99</del> $16/pack</div>
-                <a class="button button-xs button-default-outline" href="#">Pre-order</a>
-              </div>
-            </div>
-          </div>
-            <p>Disclaimer: </p>
-        </div>
-      </section>
-
-        
-        <!-- What We Offer-->
+      <!-- What We Offer-->
       <section class="section section-lg" id="about">
         <div class="container">
           <div class="block-lg text-center">
-            <h2>How Handsome Helps to Keep You and Your Family Healthier</h2>
+            <h2>What We Offer</h2>
+            <p>At our education center, we provide a variety of benefits and advantages for your kids’ successful education, while allowing your kid to stay fully active, creative, and healthy.</p>
           </div>
           <div class="row row-30 row-xxl-60">
-            <div class="col-sm-6 col-md-3 wow fadeInLeft">
+            <div class="col-sm-6 col-md-4 wow fadeInLeft">
+              <div class="blurb-image">
+                <div class="icon linearicons-shield"><span class="colored-circle circle-top-left circle-yellow"></span></div>
+                <h6 class="title">Safety First</h6>
+                <p class="exeption">We offer first-class protection and security for your children at Kinderex.</p>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 wow fadeInLeft" data-wow-delay="0.1s">
               <div class="blurb-image">
                 <div class="icon linearicons-group-work"><span class="colored-circle circle-right-bottom circle-orange"></span></div>
-                <h6 class="title">You Care</h6>
-                <p class="exeption">You care about your family and friends. This is why you want to have a healthy environment inside your home.</p>
+                <h6 class="title">Small Class Size</h6>
+                <p class="exeption">All classes at our center have up to 6 students regardless of the curriculum.</p>
               </div>
             </div>
-            <div class="col-sm-6 col-md-3 wow fadeInLeft" data-wow-delay="0.1s">
+            <div class="col-sm-6 col-md-4 wow fadeInLeft" data-wow-delay="0.2s">
               <div class="blurb-image">
-                <div class="icon linearicons-shield"><span class="colored-circle circle-top-left circle-yellow"></span></div>  
-                <h6 class="title">Hygiene Where it is Needed</h6>
-                <p class="exeption">You'd like that everyone will wash their hands before they go in. But it is simply impossible. There is no bath sink at your front door!</p>
+                <div class="icon linearicons-license2"><span class="colored-circle circle-top-right circle-pink"></span></div>
+                <h6 class="title">Certified Teachers</h6>
+                <p class="exeption">We hire only the most experienced and certified teachers for your children.</p>
               </div>
             </div>
-            <div class="col-sm-6 col-md-3 wow fadeInLeft" data-wow-delay="0.2s">
-              <div class="blurb-image">            
-                <div class="icon linearicons-music-note"><span class="colored-circle circle-bottom-left circle-yellow"></span></div>                  
-                <h6 class="title">Always Available and Noticed</h6>
-                <p class="exeption">Handsome is installed at your home entrance. It detects and reminds everyone who enters your home to clean their hands. Handsome’s liquid sensors will make sure you never run out of sanitizer.</p>
-              </div>
-            </div>
-            <div class="col-sm-6 col-md-3 wow fadeInLeft" data-wow-delay="0.1s">
+            <div class="col-sm-6 col-md-4 wow fadeInLeft" data-wow-delay="0.1s">
               <div class="blurb-image">
-<!--                <div class="icon linearicons-baby2"><span class="colored-circle circle-right-bottom circle-orange"></span></div>-->
-                <div class="icon linearicons-sun"><span class="colored-circle circle-top-right circle-pink"></span></div>                  
-                <h6 class="title">Comfort and Peace of Mind</h6>
-                <p class="exeption">Imagine the feeling of comfort when you don't think twice about shaking your guests' hands. You don't need to remind anyone to clean their hands. Germs and viruses stay outside.</p>
+                <div class="icon linearicons-baby2"><span class="colored-circle circle-right-bottom circle-orange"></span></div>
+                <h6 class="title">Infant Care</h6>
+                <p class="exeption">Meeting the educational needs of infants through quality infant care.</p>
               </div>
             </div>
-<!--
             <div class="col-sm-6 col-md-4 wow fadeInLeft" data-wow-delay="0.2s">
               <div class="blurb-image">
                 <div class="icon linearicons-palette"><span class="colored-circle circle-top-left circle-pink"></span></div>
@@ -255,156 +200,10 @@
                 <p class="exeption">The best conditions for your child to have the unique learning experience.</p>
               </div>
             </div>
--->
           </div>
         </div>
       </section>
-
-    
-      <!-- features -->
-      <section class="section section-lg bg-cover" id="features" style="background-image: url('images/tech_background.jpg'); background-blend-mode: lighten; background-color: rgba(255,255,255,0.5);">
-        <div class="container">
-          <h2 class="text-center text-black">Handsome's Technology</h2>
-          <div class="row row-flex justify-content-center">
-            <div class="col-lg-3 col-sm-8 py-3 wow fadeInRight">
-              <article class="informative-box-wrap">
-                <div class="informative-box-img"><img src="images/sensor_370x370.jpg" alt="" width="370" height="370"/>
-                </div>
-                <div class="informative-box-content">
-                  <h6 class="informative-box-title">Sensors, AI and IoT</h6>
-                      <p>Handsome is equiped with 3 PIR sensors to detect entrans, hands proximty sensor for touchless operation and patentent pending remaining liquid sensor to notify you when the sanitizer is about to run out. A powerful, ultra-low power processor, detects entrants (patent pending) and enables WiFi connectivity to integrate with other devices. Expected battery life is 12 months.</p>
-                </div>
-              </article>
-            </div>
-              <div class="col-lg-3 col-sm-8 py-3 wow fadeInRight" data-wow-delay=".2s">
-              <article class="informative-box-wrap">
-                <div class="informative-box-img"><img src="images/notification_370x370.jpg" alt="" width="370" height="272"/>
-                </div>
-                <div class="informative-box-content">
-                  <h6 class="informative-box-title">Entrants Notification</h6>
-                  <p>For sanitizing solution to be effective, it should be noticed. Handsome enables visual and audio notifications to entrants. The notifications can be customized to encourage entrants to clean their hands in an entertaining and not annoying manner.</p>
-                </div>
-              </article>
-            </div>              
-            <div class="col-lg-3 col-sm-8 wow py-3 fadeInRight" data-wow-delay=".1s">
-              <article class="informative-box-wrap">
-                <div class="informative-box-img"><img src="images/design_370x370.jpg" alt="" width="370" height="272"/>
-                </div>
-                <div class="informative-box-content">
-                  <h6 class="informative-box-title">High-End, Outdoor Design</h6>
-                  <p>Everyone's home is different. With Handsome, you can customize the dispenser to match your desired look. Multiple color panels are available, including some themed ones, to mark your personality or an important holiday.</p>
-                </div>
-              </article>
-            </div>
-            <div class="col-lg-3 col-sm-8 py-3 wow fadeInRight" data-wow-delay=".2s">
-              <article class="informative-box-wrap">
-                <div class="informative-box-img"><img src="images/hands_370x370.jpg" alt="" width="370" height="272"/>
-                </div>
-                <div class="informative-box-content">
-                  <h6 class="informative-box-title">Variety of Gentle Sanitizing Liquid</h6>
-                  <p>Currently, 3 fragrances are available: odorless, fresh lemon, and calming lavender. It has oils perfume components and lives a nice balm feeling. The sanitizer is hypo-allergic and made of organic ingredients. The formula complies with all industry standards and kills 99.99 of the germ and bacteria.</p>
-                </div>
-              </article>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Call to action-->
-      <section class="section section-xs accent-red-bg">
-        <div class="container">
-          <div class="box-cta">
-            <div class="box-cta-inner">
-              <h3 class="text-white">Pre-Order and save 30%! </h3><a class="button button-default-outline" href="#pricing" data-caption-animate="fadeInUp" data-caption-delay="450">See our plans</a>
-            </div>
-          </div>
-        </div>
-      </section>
-        
-        
-      <!-- Frequently Asked Questions-->
-      <section class="section section-lg" id="faq">
-        <div class="container text-center">
-          <h2>Frequently Asked Questions</h2>
-          <div class="row row-flex row-40 number-counter text-left">
-            <div class="col-sm-12 col-lg-4 wow fadeIn">
-              <div class="text-block-lined">
-                  <h5 class="title">
-                    <svg width="20" height="20" viewBox="0 0 16 16" class="bi bi-patch-question" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M7.002 11a1 1 0 1 1 2 0 1 1 0 0 1-2 0zM8.05 9.6c.336 0 .504-.24.554-.627.04-.534.198-.815.847-1.26.673-.475 1.049-1.09 1.049-1.986 0-1.325-.92-2.227-2.262-2.227-1.02 0-1.792.492-2.1 1.29A1.71 1.71 0 0 0 6 5.48c0 .393.203.64.545.64.272 0 .455-.147.564-.51.158-.592.525-.915 1.074-.915.61 0 1.03.446 1.03 1.084 0 .563-.208.885-.822 1.325-.619.433-.926.914-.926 1.64v.111c0 .428.208.745.585.745z"/>
-                      <path fill-rule="evenodd" d="M10.273 2.513l-.921-.944.715-.698.622.637.89-.011a2.89 2.89 0 0 1 2.924 2.924l-.01.89.636.622a2.89 2.89 0 0 1 0 4.134l-.637.622.011.89a2.89 2.89 0 0 1-2.924 2.924l-.89-.01-.622.636a2.89 2.89 0 0 1-4.134 0l-.622-.637-.89.011a2.89 2.89 0 0 1-2.924-2.924l.01-.89-.636-.622a2.89 2.89 0 0 1 0-4.134l.637-.622-.011-.89a2.89 2.89 0 0 1 2.924-2.924l.89.01.622-.636a2.89 2.89 0 0 1 4.134 0l-.715.698a1.89 1.89 0 0 0-2.704 0l-.92.944-1.32-.016a1.89 1.89 0 0 0-1.911 1.912l.016 1.318-.944.921a1.89 1.89 0 0 0 0 2.704l.944.92-.016 1.32a1.89 1.89 0 0 0 1.912 1.911l1.318-.016.921.944a1.89 1.89 0 0 0 2.704 0l.92-.944 1.32.016a1.89 1.89 0 0 0 1.911-1.912l-.016-1.318.944-.921a1.89 1.89 0 0 0 0-2.704l-.944-.92.016-1.32a1.89 1.89 0 0 0-1.912-1.911l-1.318.016z"/>
-                    </svg>                      
-                      How is Handsome different?</h5>
-                <p>First, this is the first outdoor solution. The dispenser is located exactly when you need it - your home's entrance.
-Second, it is a smart device, people notice its audio and visual cues and use it to clean their hands. And lastly, it comes with a hustle-free subscription service to refill the sanitizing liquid and make sure the device is always functional.</p>                  
-              </div>
-            </div>
-            <div class="col-sm-12 col-lg-4 wow fadeIn">
-              <div class="text-block-lined">
-                <h5 class="title">
-                    <svg width="20" height="20" viewBox="0 0 16 16" class="bi bi-screwdriver" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                      <path fill-rule="evenodd" d="M0 1l1-1 3.081 2.2a1 1 0 0 1 .419.815v.07a1 1 0 0 0 .293.708L10.5 9.5l.914-.305a1 1 0 0 1 1.023.242l3.356 3.356a1 1 0 0 1 0 1.414l-1.586 1.586a1 1 0 0 1-1.414 0l-3.356-3.356a1 1 0 0 1-.242-1.023L9.5 10.5 3.793 4.793a1 1 0 0 0-.707-.293h-.071a1 1 0 0 1-.814-.419L0 1zm11.354 9.646a.5.5 0 0 0-.708.708l3 3a.5.5 0 0 0 .708-.708l-3-3z"/>
-                    </svg>                    
-                    Can I install Handsome by myself?</h5>
-                <p>Sure! Handsome uses ultra-low-power technology that doesn't require a power connection. Its installation is easy like hanging a picture. An intuitive user app will guide you on how to connect the device to the internet.</p>
-              </div>
-            </div>
-            <div class="col-sm-12 col-lg-4 wow fadeIn">
-              <div class="text-block-lined">
-                <h5 class="title">
-                    <svg width="20" height="20" viewBox="0 0 16 16" class="bi bi-stopwatch" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" d="M6 .5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H9v1.07A7.001 7.001 0 0 1 8 16 7 7 0 0 1 7 2.07V1h-.5A.5.5 0 0 1 6 .5zM8 3a6 6 0 1 0 .001 12A6 6 0 0 0 8 3zm0 2.1a.5.5 0 0 1 .5.5V9a.5.5 0 0 1-.5.5H4.5a.5.5 0 0 1 0-1h3V5.6a.5.5 0 0 1 .5-.5z"/>
-                    </svg>                   
-                    How long will the cartridge last?</h5>
-                <p>Our experts calculated the optimal cartridge volume and dispenser spraying amount. For a family of 4 people, one cartridge will last one month. Before the cartridge will empty, we'll send you a refill.</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="row row-flex row-40 number-counter text-left">
-            <div class="col-sm-12 col-lg-4 wow fadeIn">
-              <div class="text-block-lined">
-                <h5 class="title">
-                    <svg width="20" height="20" viewBox="0 0 16 16" class="bi bi-columns-gap" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                      <path fill-rule="evenodd" d="M6 1H1v3h5V1zM1 0a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h5a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1H1zm14 12h-5v3h5v-3zm-5-1a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h5a1 1 0 0 0 1-1v-3a1 1 0 0 0-1-1h-5zM6 8H1v7h5V8zM1 7a1 1 0 0 0-1 1v7a1 1 0 0 0 1 1h5a1 1 0 0 0 1-1V8a1 1 0 0 0-1-1H1zm14-6h-5v7h5V1zm-5-1a1 1 0 0 0-1 1v7a1 1 0 0 0 1 1h5a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1h-5z"/>
-                    </svg>
-                    How can I customize Handsome?</h5>
-                <p>You can customize Handsome in many ways. Our homes are different, so you can change Handsome's front panel to match your home's exterior. You also can choose between 3 hands-friendly sanitizing liquids: lemon, odorless and lavender. Also, you can customize the reminder experience by choosing different visual and audio themes.</p>
-              </div>
-            </div>
-            <div class="col-sm-12 col-lg-4 wow fadeIn">
-              <div class="text-block-lined">
-                <h5 class="title">
-                    <svg width="20" height="20" viewBox="0 0 16 16" class="bi bi-hourglass-bottom" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                      <path fill-rule="evenodd" d="M2 1.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-1v1a4.5 4.5 0 0 1-2.557 4.06c-.29.139-.443.377-.443.59v.7c0 .213.154.451.443.59A4.5 4.5 0 0 1 12.5 13v1h1a.5.5 0 0 1 0 1h-11a.5.5 0 1 1 0-1h1v-1a4.5 4.5 0 0 1 2.557-4.06c.29-.139.443-.377.443-.59v-.7c0-.213-.154-.451-.443-.59A4.5 4.5 0 0 1 3.5 3V2h-1a.5.5 0 0 1-.5-.5zm2.5.5v1a3.5 3.5 0 0 0 1.989 3.158c.533.256 1.011.791 1.011 1.491v.702s.18.149.5.149.5-.15.5-.15v-.7c0-.701.478-1.236 1.011-1.492A3.5 3.5 0 0 0 11.5 3V2h-7z"/>
-                    </svg>                    
-                    How I don't run out of sanitizer?</h5>
-                <p>Handsome is bundled with a sanitizing liquid subscription service. Based on your actual usage, we'll send you the sanitizing liquid capsules from the flavors you choose. The service includes shipment and handling and can be canceled anytime.</p>
-              </div>
-            </div>
-            <div class="col-sm-12 col-lg-4 wow fadeIn">
-              <div class="text-block-lined">
-                <h5 class="title">
-                    <svg width="20" height="20" viewBox="0 0 16 16" class="bi bi-emoji-wink" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                      <path fill-rule="evenodd" d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-                      <path fill-rule="evenodd" d="M4.285 9.567a.5.5 0 0 1 .683.183A3.498 3.498 0 0 0 8 11.5a3.498 3.498 0 0 0 3.032-1.75.5.5 0 1 1 .866.5A4.498 4.498 0 0 1 8 12.5a4.498 4.498 0 0 1-3.898-2.25.5.5 0 0 1 .183-.683z"/>
-                      <path d="M7 6.5C7 7.328 6.552 8 6 8s-1-.672-1-1.5S5.448 5 6 5s1 .672 1 1.5z"/>
-                      <path fill-rule="evenodd" d="M8.757 6.063a.5.5 0 0 1 .68.194.934.934 0 0 0 .813.493c.339 0 .645-.19.813-.493a.5.5 0 1 1 .874.486A1.934 1.934 0 0 1 10.25 7.75c-.73 0-1.356-.412-1.687-1.007a.5.5 0 0 1 .194-.68z"/>
-                    </svg>                    
-                    Does the sanitizing liquid stink?</h5>
-                <p>Nope! The sanitizing liquid combines love and science. It is a scientifically tested and efficient germ-killing formula. It is made of organic, anti-allergen ingredients and includes hydrating elements and oils to leave your hands and the hands you shake soft and healthy.The cartridge is 100% recyclable.</p>
-              </div>
-            </div>
-          </div>
-            
-            <p>If you have any other questions, feel free to send us an email at <a href="mailto:hello@handsome.care">hello@handsome.care</a></p>
-<!--          <div class="button-wrap-lg"><a class="button button-md button-primary button-long" href="#">View All Asked Questions</a></div>-->
-        </div>
-      </section>
-        
-        
       <!-- A Few Words About Us-->
-<!--
       <section class="section section-lg bg-gray-light">
         <div class="container">
           <div class="block-lg text-center">
@@ -416,9 +215,9 @@ Second, it is a smart device, people notice its audio and visual cues and use it
             </div>
             <div class="col-md-10 col-lg-6 col-xl-5">
               <div class="text-block-2">
-                <p>At Kinderex, our mission is to provide excellence in preschool, kindergarten, before and after school programs and summer camp for families living in the greater local area. Here you'll find exceptional teachers, curriculum and learning environments that encourage children to learn, play, and explore in a safe, healthy, and nurturing environment promoting creative thinking.</p>
+                <p>At Kinderex, our mission is to provide excellence in preschool, kindergarten, before and after school programs and summer camp for families living in the greater local area. Here you’ll find exceptional teachers, curriculum and learning environments that encourage children to learn, play, and explore in a safe, healthy, and nurturing environment promoting creative thinking.</p>
                 <div class="progress-linear-wrap">
-
+                  <!-- Linear progress bar-->
                   <article class="progress-linear">
                     <div class="progress-header">
                       <p>Preschool Education</p><span class="progress-value">75</span>
@@ -427,6 +226,7 @@ Second, it is a smart device, people notice its audio and visual cues and use it
                       <div class="progress-bar-linear"></div>
                     </div>
                   </article>
+                  <!-- Linear progress bar-->
                   <article class="progress-linear">
                     <div class="progress-header">
                       <p>Summer Programs</p><span class="progress-value">50</span>
@@ -441,26 +241,52 @@ Second, it is a smart device, people notice its audio and visual cues and use it
           </div>
         </div>
       </section>
--->
-      
-      <section class="section section-lg bg-gray-light">
+      <!-- Our Programs-->
+      <section class="section section-lg bg-cover" id="programs" style="background-image: url('images/home-bg-1-1920x770.jpg')">
         <div class="container">
-          <div class="block-lg text-center">
-            <h2>A Few Words About Us</h2>
-              <p>Hi, we are (a very) Handsome team. </p>
-              <p>We are a small group of inventors, engineers, and hackers based out of Silicon Valley with partners and professionals around the globe.</p>
-              <p>We've built and shipped complex outdoor devices and Handsome is our next mission.</p>
-              <p>A mission to create a healthier and safer environment in our homes. An environment we feel comfortable shaking hands with our guests, inviting our parents, and knowing that all the viruses are blocked at our front door.</p>
-              <p><a href="mailto:hello@handsome.care">hello@handsome.care</a></p>
+          <h2 class="text-center text-white">Our Programs</h2>
+          <div class="row row-20 justify-content-center">
+            <div class="col-md-6 col-lg-4 col-10 col-sm-8 wow fadeInRight">
+              <article class="informative-box-wrap">
+                <div class="informative-box-img"><img src="images/box-img-1-370x272.jpg" alt="" width="370" height="272"/>
+                </div>
+                <div class="informative-box-content">
+                  <h6 class="informative-box-title"><a href="#">Arts Programs</a></h6>
+                  <p>These programs provide extensive art experiences and activities for kids and teens.</p>
+                  <div class="informative-box-author offset-top-20">Teacher:<a href="#">Stephen Rose</a></div>
+                </div>
+              </article>
+            </div>
+            <div class="col-md-6 col-lg-4 col-10 col-sm-8 wow fadeInRight" data-wow-delay=".1s">
+              <article class="informative-box-wrap">
+                <div class="informative-box-img"><img src="images/box-img-2-370x272.jpg" alt="" width="370" height="272"/>
+                </div>
+                <div class="informative-box-content">
+                  <h6 class="informative-box-title"><a href="#">Foreign Language Programs</a></h6>
+                  <p>The goal of these programs is to prepare your child for better foreign language studying.</p>
+                  <div class="informative-box-author offset-top-20">Teacher:<a href="#">Catherine White</a></div>
+                </div>
+              </article>
+            </div>
+            <div class="col-md-6 col-lg-4 col-10 col-sm-8 wow fadeInRight" data-wow-delay=".2s">
+              <article class="informative-box-wrap">
+                <div class="informative-box-img"><img src="images/box-img-3-370x272.jpg" alt="" width="370" height="272"/>
+                </div>
+                <div class="informative-box-content">
+                  <h6 class="informative-box-title"><a href="#">Sports Programs</a></h6>
+                  <p>Competitive activities and movement classes form the basis of these programs.</p>
+                  <div class="informative-box-author offset-top-20">Teacher:<a href="#">Stephen Rose</a></div>
+                </div>
+              </article>
+            </div>
           </div>
         </div>
-      </section>      
-
-        <!-- Testimonials-->
-<!--
+      </section>
+      <!-- Testimonials-->
       <section class="section section-lg bg-gray-light">
         <div class="container text-center">
           <h2>Testimonials</h2>
+          <!-- Owl Carousel-->
           <div class="owl-carousel text-left" data-items="1" data-md-items="2" data-dots="true" data-nav="false" data-stage-padding="0" data-loop="true" data-margin="30" data-mouse-drag="false" data-autoplay="true">
             <blockquote class="quote quote-boxed">
               <div class="quote-meta">
@@ -597,14 +423,11 @@ Second, it is a smart device, people notice its audio and visual cues and use it
           </div>
         </div>
       </section>
--->
-        
       <!-- 4 Column Layout-->
-<!--
       <section class="section section-lg" id="team">
         <div class="container text-center">
           <h2 class="font-weight-light">Our Wonderful Teachers</h2>
-
+          <!-- Owl Carousel-->
           <div class="owl-carousel text-left" data-items="1" data-sm-items="2" data-lg-items="3" data-xl-items="4" data-dots="true" data-nav="false" data-stage-padding="15" data-loop="false" data-margin="30" data-mouse-drag="false">
             <div class="thumbnail-1">
               <div class="media-wrap"><img src="images/team-1-270x270.jpg" alt="" width="270" height="270"/>
@@ -635,35 +458,224 @@ Second, it is a smart device, people notice its audio and visual cues and use it
               </div>
               <div class="title"><a href="#">Danielle Gray</a></div>
               <div class="position">Family Support Specialist</div>
-              <p class="exeption">Danielle Gray provides services and programs to enhance the self-sufficiency of families and improves children's safety.</p>
+              <p class="exeption">Danielle Gray provides services and programs to enhance the self-sufficiency of families and improves children’s safety.</p>
               <div class="group group-middle social-items"><a class="icon icon-md icon-gray-400 novi-icon mdi mdi-facebook" href="#"></a><a class="icon icon-md icon-gray-400 novi-icon mdi mdi-twitter" href="#"></a><a class="icon icon-md icon-gray-400 novi-icon mdi mdi-instagram" href="#"></a><a class="icon icon-md icon-gray-400 novi-icon mdi mdi-facebook-messenger" href="#"></a><a class="icon icon-md icon-gray-400 novi-icon mdi mdi-linkedin" href="#"></a><a class="icon icon-md icon-gray-400 novi-icon mdi mdi-snapchat" href="#"></a></div>
             </div>
           </div>
         </div>
       </section>
--->
       <!-- Call to action-->
-      <section class="section section-xs accent-red-bg">
+      <section class="section section-xs accent-violet-bg">
         <div class="container">
           <div class="box-cta">
             <div class="box-cta-inner">
-              <h3 class="text-white">Pre-Order and save 30%! </h3><a class="button button-default-outline" href="#pricing" data-caption-animate="fadeInUp" data-caption-delay="450">See our plans</a>
+              <h3 class="text-white">#1 Preschool Education Center</h3>
+            </div>
+            <div class="box-cta-inner"><a class="button button-lg button-primary" href="#">Learn More</a></div>
+          </div>
+        </div>
+      </section>
+      <!-- Frequently Asked Questions-->
+      <section class="section section-lg" id="faq">
+        <div class="container text-center">
+          <h2>Frequently Asked Questions</h2>
+          <div class="row row-flex row-40 number-counter text-left">
+            <div class="col-sm-12 col-lg-4 wow fadeIn">
+              <div class="text-block-lined">
+                <h5 class="title">Do you provide any scripts with your templates?</h5>
+                <p>Our templates do not include any additional scripts. Newsletter subscriptions, search fields, forums, image galleries (in HTML versions of Flash products) are inactive. Basic scripts can be easily added at www.zemez.io If you are not sure that the element you’re interested in is active please contact our Support.</p>
+                <h5 class="title">In what formats are your templates available?</h5>
+                <p>Website templates are available in Photoshop and HTML formats. Fonts are included with the Photoshop file.</p>
+              </div>
+            </div>
+            <div class="col-sm-12 col-lg-4 wow fadeIn">
+              <div class="text-block-lined">
+                <h5 class="title">What payment methods can I use to pay for my order?</h5>
+                <p>We accept Visa, MasterCard, and American Express credit and debit cards for your convenience. Some other payment methods are also available.</p>
+                <h5 class="title">What are the advantages of purchasing a website template?</h5>
+                <p>The major advantage is price: You get a high quality design for just $20-$70. You don’t have to hire a web designer or web design studio. The second advantage is time frame: It usually takes 5-15 days for a good designer to produce a web page of such quality regardless of its purpose.</p>
+              </div>
+            </div>
+            <div class="col-sm-12 col-lg-4 wow fadeIn">
+              <div class="text-block-lined">
+                <h5 class="title">What am I allowed to do with the templates?</h5>
+                <p>You may build a website using the template in any way you like. You may not resell or redistribute templates (like we do); claim intellectual or exclusive ownership to any of our products.</p>
+                <h5 class="title">What do I receive when I order a template from Zemez?</h5>
+                <p>After you complete the payment via our secure form you will receive the instructions for downloading the product. The source files in the download package can vary based on the type of the product you have purchased.</p>
+              </div>
+            </div>
+          </div>
+          <div class="button-wrap-lg"><a class="button button-md button-primary button-long" href="#">View All Asked Questions</a></div>
+        </div>
+      </section>
+      <!-- Latest Blog Posts-->
+      <section class="section section-lg bg-gray-light">
+        <div class="container text-center">
+          <h2>Latest Blog Posts</h2>
+          <div class="row row-flex row-40 justify-content-center number-counter text-left wow fadeInUp">
+            <div class="col-sm-6 col-lg-3">
+              <article class="post-classic-2"><a class="media-wrapper" href="#"><img src="images/masonry-blog-1-370x240.jpg" alt="" width="370" height="240"/></a>
+                <div class="post-meta-main">
+                  <div class="post-meta-item">
+                    <ul class="list-tags">
+                      <li><a class="tag" href="#">News</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="post-meta-item">
+                    <div class="post-author"><span>by</span> <a href="#">Martha Ryan</a>
+                    </div>
+                  </div>
+                </div>
+                <h6 class="post-title"><a href="#">How Testing Buoyancy Can Build Babies’ Skills</a></h6>
+                <p class="post-exeption">The sound and sight of water are absolutely fascinating to infants. And for good reason! Water is a completely unique substance in the world, and...</p>
+                <div class="post-date">2 days ago</div>
+              </article>
+            </div>
+            <div class="col-sm-6 col-lg-3">
+              <article class="post-classic-2"><a class="media-wrapper" href="#"><img src="images/masonry-blog-2-370x240.jpg" alt="" width="370" height="240"/></a>
+                <div class="post-meta-main">
+                  <div class="post-meta-item">
+                    <ul class="list-tags">
+                      <li><a class="tag" href="#">News</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="post-meta-item">
+                    <div class="post-author"><span>by</span> <a href="#">Lawrence Kelly</a>
+                    </div>
+                  </div>
+                </div>
+                <h6 class="post-title"><a href="#">Preschool Science Activities Transform Kids into Independent Thinkers</a></h6>
+                <p class="post-exeption">For any parent looking for some home science fun with their little ones, we have put together a wonderful collection of safe, fun, and easy...</p>
+                <div class="post-date">2 days ago</div>
+              </article>
+            </div>
+            <div class="col-sm-6 col-lg-3">
+              <article class="post-classic-2"><a class="media-wrapper" href="#"><img src="images/masonry-blog-3-370x240.jpg" alt="" width="370" height="240"/></a>
+                <div class="post-meta-main">
+                  <div class="post-meta-item">
+                    <ul class="list-tags">
+                      <li><a class="tag" href="#">News</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="post-meta-item">
+                    <div class="post-author"><span>by</span> <a href="#">Theresa Simpson</a>
+                    </div>
+                  </div>
+                </div>
+                <h6 class="post-title"><a href="#">The Road to Positive Parenting</a></h6>
+                <p class="post-exeption">Every parent grapples with this issue. If you have young children, you know how every day can be a struggle if your child doesn’t behave. Even the most...</p>
+                <div class="post-date">2 days ago</div>
+              </article>
+            </div>
+            <div class="col-sm-6 col-lg-3">
+              <article class="post-classic-2"><a class="media-wrapper" href="#"><img src="images/masonry-blog-4-370x240.jpg" alt="" width="370" height="240"/></a>
+                <div class="post-meta-main">
+                  <div class="post-meta-item">
+                    <ul class="list-tags">
+                      <li><a class="tag" href="#">News</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="post-meta-item">
+                    <div class="post-author"><span>by</span> <a href="#">Lawrence Kelly</a>
+                    </div>
+                  </div>
+                </div>
+                <h6 class="post-title"><a href="#">Sensory Counting Games for Kids that Blend Fun and Education</a></h6>
+                <p class="post-exeption">Have you ever wondered why kids—especially the under-five set—tend to touch everything they possibly can, from boxes at the... </p>
+                <div class="post-date">2 days ago</div>
+              </article>
+            </div>
+          </div>
+          <div class="button-wrap-lg"><a class="button button-sm button-primary" href="#">View All Blog Posts</a></div>
+        </div>
+      </section>
+      <!-- Pricing-->
+      <section class="section section-lg" id="pricing">
+        <div class="container text-center">
+          <h2>Pricing</h2>
+          <div class="row no-gutters justify-content-center row-bordered-center">
+            <div class="col-md-4">
+              <div class="price-box-1 price-box-green">
+                <div class="media-wrap"><img src="images/pricing-1-132x160.png" alt="" width="132" height="160"/>
+                </div>
+                <div class="title">Infants</div>
+                <p class="exeption">This plan provides a full set of classes for infants, perfectly suited for making the first transition away from home natural and easy for your child.</p>
+                <div class="heading-3 price text-white">$59.00/mo</div><a class="button button-xs button-default-outline" href="#">Sign Up</a>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="price-box-1 price-box-orange price-box-1-primary">
+                <div class="media-wrap"><img src="images/pricing-2-132x160.png" alt="" width="132" height="160"/>
+                </div>
+                <div class="title">Kids</div>
+                <p class="exeption">Our Kids plan is aimed at practicing the skills needed for kindergarten success, like following directions, reading, and writing.</p>
+                <div class="heading-3 price text-white">$99.00/mo</div><a class="button button-xs button-default-outline" href="#">Sign Up</a>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="price-box-1 price-box-red">
+                <div class="media-wrap"><img src="images/pricing-3-132x160.png" alt="" width="132" height="160"/>
+                </div>
+                <div class="title">Early Kindergarten</div>
+                <p class="exeption">This plan is intended for our young 5-year-olds who miss the cut-off date for Kindergarten entrance or for those who need more time to prepare.</p>
+                <div class="heading-3 price text-white">$199.00/mo</div><a class="button button-xs button-default-outline" href="#">Sign Up</a>
+              </div>
             </div>
           </div>
         </div>
       </section>
-        
+      <!-- Mailform-->
+      <section class="section section-md bg-gray-light" id="contacts">
+        <div class="container">
+          <div class="row row-50 justify-content-between">
+            <div class="col-md-12 col-lg-4">
+              <h4 class="font-weight-light">Get in Touch</h4>
+              <!-- RD Mailform-->
+              <form class="rd-form rd-mailform" data-form-output="form-output-global" data-form-type="contact" method="post" action="bat/rd-mailform.php">
+                <div class="form-wrap">
+                  <input class="form-input" id="contact-name" type="text" name="name" data-constraints="@Required">
+                  <label class="form-label" for="contact-name">Name</label>
+                </div>
+                <div class="form-wrap">
+                  <input class="form-input" id="contact-email" type="email" name="email" data-constraints="@Email @Required">
+                  <label class="form-label" for="contact-email">E-mail</label>
+                </div>
+                <div class="form-wrap">
+                  <label class="form-label" for="contact-message">Message</label>
+                  <textarea class="form-input" id="contact-message" name="message" data-constraints="@Required"></textarea>
+                </div>
+                <button class="button button-primary" type="submit">Send</button>
+              </form>
+            </div>
+            <div class="col-md-12 col-lg-8">
+              <div class="google-map-container" data-center="9870 St Vincent Place, Glasgow, DC 45 Fr 45." data-zoom="5" data-icon="images/gmap_marker.png" data-icon-active="images/gmap_marker_active.png" data-styles="[{&quot;featureType&quot;:&quot;landscape&quot;,&quot;stylers&quot;:[{&quot;saturation&quot;:-100},{&quot;lightness&quot;:60}]},{&quot;featureType&quot;:&quot;road.local&quot;,&quot;stylers&quot;:[{&quot;saturation&quot;:-100},{&quot;lightness&quot;:40},{&quot;visibility&quot;:&quot;on&quot;}]},{&quot;featureType&quot;:&quot;transit&quot;,&quot;stylers&quot;:[{&quot;saturation&quot;:-100},{&quot;visibility&quot;:&quot;simplified&quot;}]},{&quot;featureType&quot;:&quot;administrative.province&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;off&quot;}]},{&quot;featureType&quot;:&quot;water&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;on&quot;},{&quot;lightness&quot;:30}]},{&quot;featureType&quot;:&quot;road.highway&quot;,&quot;elementType&quot;:&quot;geometry.fill&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#ef8c25&quot;},{&quot;lightness&quot;:40}]},{&quot;featureType&quot;:&quot;road.highway&quot;,&quot;elementType&quot;:&quot;geometry.stroke&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;off&quot;}]},{&quot;featureType&quot;:&quot;poi.park&quot;,&quot;elementType&quot;:&quot;geometry.fill&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#b6c54c&quot;},{&quot;lightness&quot;:40},{&quot;saturation&quot;:-40}]},{}]">
+                <div class="google-map"></div>
+                <ul class="google-map-markers">
+                  <li data-location="9870 St Vincent Place, Glasgow, DC 45 Fr 45." data-description="9870 St Vincent Place, Glasgow"></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       <!-- Page Footer-->
       <footer class="section footer-2">
         <div class="container">
           <div class="row row-40">
-            <div class="col-6">
+            <div class="col-md-6 col-lg-3"><a class="footer-logo" href="index.html"><img src="images/logo-inverse-219x69.png" alt="" width="219" height="69"/></a>
+              <p class="mw-230">Kinderex is a creative and progressive education center where young children receive a warm, happy and enriching educational experience. We provide students with the highest quality education.</p>
+            </div>
+            <div class="col-md-6 col-lg-3">
               <h5 class="title">Contact Information</h5>
               <ul class="contact-box">
                 <li>
                   <div class="unit unit-horizontal unit-spacing-xxs">
                     <div class="unit-left"><span class="icon mdi mdi-map-marker"></span></div>
-                    <div class="unit-body"><a href="#">75 E Santa Clara St,<br class="veil reveal-lg-inline"> San Jose, CA 95113, USA</a></div>
+                    <div class="unit-body"><a href="#">2130 Fulton Street, <br class="veil reveal-lg-inline">San Diego, CA 94117-1080 USA</a></div>
                   </div>
                 </li>
                 <li>
@@ -671,7 +683,8 @@ Second, it is a smart device, people notice its audio and visual cues and use it
                     <div class="unit-left"><span class="icon mdi mdi-phone"></span></div>
                     <div class="unit-body">
                       <ul class="list-phones">
-                        <li><a href="tel:#">+1 (952) 255-9820</a></li>
+                        <li><a href="tel:#">1-800-1234-567</a></li>
+                        <li><a href="tel:#">1-800-9876-098</a></li>
                       </ul>
                     </div>
                   </div>
@@ -679,13 +692,30 @@ Second, it is a smart device, people notice its audio and visual cues and use it
                 <li>
                   <div class="unit unit-horizontal unit-spacing-xxs">
                     <div class="unit-left"><span class="icon mdi mdi-email"></span></div>
-                    <div class="unit-body"><a href="mailto:#">hello@handsome.care</a></div>
+                    <div class="unit-body"><a href="mailto:#">info@demolink.org</a></div>
                   </div>
                 </li>
               </ul>
-              <div class="group-md group-middle social-items"><a class="icon icon-md novi-icon mdi mdi-facebook" href="#"></a><a class="icon icon-md novi-icon mdi mdi-twitter" href="#"></a><a class="icon icon-md novi-icon mdi mdi-instagram" href="#"></a><a class="icon icon-md novi-icon mdi mdi-facebook-messenger" href="#"></a></div>
+              <div class="group-md group-middle social-items"><a class="icon icon-md novi-icon mdi mdi-facebook" href="#"></a><a class="icon icon-md novi-icon mdi mdi-twitter" href="#"></a><a class="icon icon-md novi-icon mdi mdi-instagram" href="#"></a><a class="icon icon-md novi-icon mdi mdi-facebook-messenger" href="#"></a><a class="icon icon-md novi-icon mdi mdi-linkedin" href="#"></a><a class="icon icon-md novi-icon mdi mdi-snapchat" href="#"></a></div>
             </div>
-            <div class="col-6">
+            <div class="col-md-6 col-lg-3">
+              <h5 class="title">Gallery</h5>
+              <ul class="instafeed instagram-gallery" data-lightgallery="group">
+                <li><a class="instagram-item" data-lightgallery="item" href="images/insta-gallery-1-original.jpg"><img src="images/insta-gallery-1-72x72.jpg" alt="" width="72" height="72"/></a>
+                </li>
+                <li><a class="instagram-item" data-lightgallery="item" href="images/insta-gallery-2-original.jpg"><img src="images/insta-gallery-2-72x72.jpg" alt="" width="72" height="72"/></a>
+                </li>
+                <li><a class="instagram-item" data-lightgallery="item" href="images/insta-gallery-3-original.jpg"><img src="images/insta-gallery-3-72x72.jpg" alt="" width="72" height="72"/></a>
+                </li>
+                <li><a class="instagram-item" data-lightgallery="item" href="images/insta-gallery-4-original.jpg"><img src="images/insta-gallery-4-72x72.jpg" alt="" width="72" height="72"/></a>
+                </li>
+                <li><a class="instagram-item" data-lightgallery="item" href="images/insta-gallery-5-original.jpg"><img src="images/insta-gallery-5-72x72.jpg" alt="" width="72" height="72"/></a>
+                </li>
+                <li><a class="instagram-item" data-lightgallery="item" href="images/insta-gallery-6-original.jpg"><img src="images/insta-gallery-6-72x72.jpg" alt="" width="72" height="72"/></a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-6 col-lg-3">
               <h5 class="title">Newsletter</h5>
               <p>Keep up with our always upcoming news and updates. Enter your e-mail and subscribe to our newsletter.</p>
               <!-- RD Mailform-->
@@ -698,7 +728,7 @@ Second, it is a smart device, people notice its audio and visual cues and use it
               </form>
             </div>
           </div>
-          <p class="rights"><span>&copy;&nbsp;</span><span class="copyright-year"></span><span>&nbsp;</span><span>Handsome</span><span>.&nbsp;</span><span>All Rights Reserved</span></p>
+          <p class="rights"><span>&copy;&nbsp;</span><span class="copyright-year"></span><span>&nbsp;</span><span>Kinderex</span><span>.&nbsp;</span><span>All Rights Reserved</span>. Design&nbsp;by&nbsp;<a href="https://zemez.io/">Zemez</a></p>
         </div>
       </footer>
     </div>
@@ -708,7 +738,5 @@ Second, it is a smart device, people notice its audio and visual cues and use it
     <script src="js/core.min.js"></script>
     <script src="js/script.js"></script>
     <!-- coded by Houdini-->
-
-
-</body>
+  </body>
 </html>
