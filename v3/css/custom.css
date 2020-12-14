@@ -177,7 +177,7 @@ $red_:#872729;
 
 
 /* Headings */
-@media (min-width: 576px) {
+@media only screen and (max-device-width: 480px) {
 	.display-1 {
         font-size: 3rem;
         margin-bottom: 0;
@@ -201,8 +201,8 @@ $red_:#872729;
 @media (min-width: 768px) {
 	.display-1 {
         font-size: 3rem;
-        margin-bottom: 0;
-        margin-top: 0;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
     }
 	.display-4 {
         font-size: 2rem;
@@ -222,13 +222,13 @@ $red_:#872729;
 @media (min-width: 992px) {
 	.display-1 {
         font-size: 3rem;
-        margin-bottom: 0;
-        margin-top: 0;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
     }
 	.display-4 {
         font-size: 2rem;
-        margin-bottom: 0;
-        margin-top: 0;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
     }
     .home-text-block {
         position: absolute;
