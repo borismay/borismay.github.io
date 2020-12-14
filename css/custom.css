@@ -4,7 +4,7 @@
 
 body {
     font-family: "Roboto";
-    padding-top: 0rem;
+    padding-top: 60px;
     padding-bottom: 3rem;
     color: #5a5a5a;
     -webkit-font-smoothing: subpixel-antialiased;
@@ -12,6 +12,11 @@ body {
 
 html {
     scroll-behavior: smooth;
+}
+
+.navbar{
+    max-height:60px;
+    min-height:60px;
 }
 
 $red_:#872729;
