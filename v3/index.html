@@ -17,7 +17,7 @@
     
 
     <!-- Bootstrap core CSS -->
-<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
       
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -494,37 +494,26 @@ Second, it is a smart device, people notice its audio and visual cues and use it
 
   
     <!-- images -->  
-    <div class="container-fluid">
+    <div class="container">
 
       <h1 class="display-1 mb-5 animate__animated animate__fadeIn text-center font-weight-bold" style="color:#872729;">Be Handsome!</h1>
-      <div class="grid">
-        <div class="grid-sizer"></div>
-        <div class="grid-item">
-          <img src="images/masonry/4.png" />
-        </div>
-        <div class="grid-item">
-          <img src="images/masonry/1.png" />
-        </div>
-        <div class="grid-item">
-          <img src="images/masonry/5.png" />
-        </div>
-        <div class="grid-item">
-          <img src="images/masonry/10.png" />
-        </div>
-        <div class="grid-item">
-          <img src="images/masonry/6.png" />
-        </div>
-        <div class="grid-item">
-          <img src="images/masonry/2.png" />
-        </div>
-        <div class="grid-item">
-          <img src="images/masonry/7.png" />
-        </div>
-        <div class="grid-item">
-          <img src="images/masonry/8.png" />
-        </div>
+      <div class="row">
+          <div class="grid" data-masonry='{ "itemSelector": ".grid-item", "columnWidth": 200 }'>
+              <div class="grid-sizer"></div>
+
+              <div class="grid-item"><img src="images/masonry/4.png" /></div>
+              <div class="grid-item"><img src="images/masonry/1.png" /></div>
+              <div class="grid-item"><img src="images/masonry/5.png" /></div>
+              <div class="grid-item"><img src="images/masonry/10.png" /></div>
+              <div class="grid-item"><img src="images/masonry/6.png" /></div>
+              <div class="grid-item"><img src="images/masonry/2.png" /></div>
+              <div class="grid-item"><img src="images/masonry/7.png" /></div>
+              <div class="grid-item"><img src="images/masonry/11.png" /></div>
+                  <div class="grid-item"><img src="images/masonry/8.png" /></div>
       </div>
-    </div>    
+        </div>
+    </div>
+
 
   <!-- FOOTER -->
   <footer class="container mt-5">
@@ -535,18 +524,6 @@ Second, it is a smart device, people notice its audio and visual cues and use it
 
 
 <!--    <script src="assets/dist/js/bootstrap.bundle.min.js"></script>-->
-      <script>
-          // init Masonry
-var $grid = $('.grid').masonry({
-  itemSelector: '.grid-item',
-  percentPosition: true,
-  columnWidth: '.grid-sizer'
-});
-// layout Masonry after each image loads
-$grid.imagesLoaded().progress( function() {
-  $grid.masonry();
-});
-      </script>      
 
       
   </body>
