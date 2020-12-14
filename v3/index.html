@@ -45,9 +45,22 @@
     
     <!-- Custom styles for this template -->
     <link href="css/custom.css" rel="stylesheet">
+
+      <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-P9PQ2VK');</script>
+<!-- End Google Tag Manager -->      
   </head>
   <body>
-    
+
+      <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P9PQ2VK"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+      
 <!--
 <header>
   <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
@@ -524,7 +537,13 @@ Second, it is a smart device, people notice its audio and visual cues and use it
 
 
 <!--    <script src="assets/dist/js/bootstrap.bundle.min.js"></script>-->
-
+<script>$('.grid').masonry({
+  // set itemSelector so .grid-sizer is not used in layout
+  itemSelector: '.grid-item',
+  // use element for option
+  columnWidth: '.grid-sizer',
+  percentPosition: true
+})</script>
       
   </body>
 </html>
