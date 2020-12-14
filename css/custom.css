@@ -7,8 +7,12 @@ body {
     padding-top: 0rem;
     padding-bottom: 3rem;
     color: #5a5a5a;
+    -webkit-font-smoothing: subpixel-antialiased;
 }
 
+html {
+    scroll-behavior: smooth;
+}
 
 $red_:#872729;
 
@@ -148,7 +152,7 @@ $red_:#872729;
 
 .home-text-block {
     position: absolute;
-    top: 8rem;
+    top: 10rem;
     left: 12rem;
     padding-left: 20px;
     padding-right: 20px;
@@ -242,6 +246,30 @@ $red_:#872729;
     }
 }
 
+@media (min-width: 480px) {
+    .display-1 {
+        font-size: 3rem;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+
+    .display-4 {
+        font-size: 2rem;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+
+    .home-text-block {
+        position: absolute;
+        top: 2rem;
+        left: 5rem;
+        padding-left: 20px;
+        padding-right: 20px;
+        color: white;
+    }
+}
+
+
 @media (min-width: 768px) {
     .display-1 {
         font-size: 3rem;
@@ -257,7 +285,7 @@ $red_:#872729;
 
     .home-text-block {
         position: absolute;
-        top: 2rem;
+        top: 4rem;
         left: 5rem;
         padding-left: 20px;
         padding-right: 20px;
@@ -280,7 +308,7 @@ $red_:#872729;
 
     .home-text-block {
         position: absolute;
-        top: 2rem;
+        top: 4rem;
         left: 5rem;
         padding-left: 20px;
         padding-right: 20px;
@@ -304,7 +332,7 @@ $red_:#872729;
 
     .home-text-block {
         position: absolute;
-        top: 3rem;
+        top: 4rem;
         left: 6rem;
         padding-left: 20px;
         padding-right: 20px;
@@ -327,7 +355,7 @@ $red_:#872729;
 
     .home-text-block {
         position: absolute;
-        top: 3rem;
+        top: 6rem;
         left: 12rem;
         padding-left: 20px;
         padding-right: 20px;
@@ -335,6 +363,7 @@ $red_:#872729;
     }
 }
 
+/*
 
 @media (min-width: 768px) {
 
@@ -386,6 +415,7 @@ $red_:#872729;
         line-height: 1.16667;
     }
 }
+*/
 
 
 /* masonry */
