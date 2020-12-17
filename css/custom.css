@@ -203,11 +203,15 @@ $red_:#872729;
 /* Thin out the marketing headings */
 .featurette-heading {
     font-weight: 300;
-    line-height: 1;
+    /*line-height: 1;*/
     /* rtl:remove */
     letter-spacing: -.05rem;
+    margin-bottom: 3rem;
 }
 
+.spacious {
+    line-height: 1.75;
+}
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
@@ -228,7 +232,7 @@ $red_:#872729;
 
 @media (min-width: 62em) {
     .featurette-heading {
-        margin-top: 7rem;
+        margin-top: 1rem;
     }
 }
 
@@ -312,9 +316,9 @@ $red_:#872729;
     }
 
     .display-4 {
-        font-size: 2rem;
-        margin-bottom: 1rem;
-        margin-top: 1rem;
+        font-size: 2.5rem;
+        margin-bottom: 2.5rem;
+        margin-top: 2rem;
     }
 
     .home-text-block {
@@ -337,8 +341,8 @@ $red_:#872729;
 
     .display-4 {
         font-size: 3rem;
-        margin-bottom: 1.25rem;
-        margin-top: 1.25rem;
+        margin-bottom: 1.8rem;
+        margin-top: 1.8rem;
     }
 
     .home-text-block {
@@ -360,8 +364,8 @@ $red_:#872729;
 
     .display-4 {
         font-size: 4rem;
-        margin-bottom: 1.25rem;
-        margin-top: 1.25rem;
+        margin-bottom: 3rem;
+        margin-top: 3rem;
     }
 
     .home-text-block {
