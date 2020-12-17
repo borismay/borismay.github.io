@@ -20,6 +20,7 @@ html {
 }
 
 $red_:#872729;
+$navy_:#2D3A58;
 
 .btn-red {
     @include button-variant($red_, darken($red_, 7.5%), darken($red_, 10%), lighten($red_, 5%), lighten($red_, 10%), darken($red_, 30%));
